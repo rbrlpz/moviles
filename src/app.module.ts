@@ -8,7 +8,4 @@ import { UsersModule } from './users/users.module';
   controllers: [AppController],
   providers: [AppService],
 })
-export class AppModule {
-  //mi primer comentario
-  //mi segundo comentario
-}
+export class AppModule {}
