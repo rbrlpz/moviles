@@ -10,4 +10,16 @@ export class LoginController {
     const { username, password } = body;
     return this.loginService.validateUser(username, password);
   }
+
+  @Post('recover')
+  async recover(@Body() body: { username: string }) {
+    const { username} = body;
+    return this.loginService.recoverUser(username);
+  }
+
+  @Post('register')
+  async regoster(@Body() body: { username: string, password: string }) {
+    const { username, password} = body;
+    return this.loginService.registerUser(username, password);
+  }
 }

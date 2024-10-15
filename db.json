@@ -1,15 +1,34 @@
 {
-    "users": [
-      {
-        "id": 1,
-        "username": "admin",
-        "password": "password123"
-      },
-      {
-        "id": 2,
-        "username": "rober",
-        "password": "mipassword"
-      }
-    ]
-  }
-  
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "password123"
+    },
+    {
+      "id": "2",
+      "username": "rober",
+      "password": "mipassword"
+    },
+    {
+      "id": "8ccd",
+      "username": "l",
+      "password": "l"
+    },
+    {
+      "id": "d4c5",
+      "username": "la",
+      "password": "la"
+    },
+    {
+      "id": "1d89",
+      "username": "x",
+      "password": "x"
+    },
+    {
+      "id": "0f11",
+      "username": "usuario2",
+      "password": "pass"
+    }
+  ]
+}
